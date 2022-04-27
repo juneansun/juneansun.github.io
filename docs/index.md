@@ -27,7 +27,7 @@
 
 > ### Multi-accelerator Neural Network Inference in Diversely Heterogeneous Embedded Systems
 > <details>
-> <summary> > 내용 </summary>  
+> <summary> > 내용 </summary>
 > <div markdown='1'>
 >
 > * 2021 IEEE/ACM Redefining Scalability for Diversely Heterogeneous Architectures Workshop (RSDHA)
@@ -42,7 +42,7 @@
 >     * DLA를 많이 사용할 수록, Lower Energy, Longer Execution Time이 소모됨 -> but, DLA를 증가시킬 수록 Fewer Energy, Lesser Time이 소모되는 구간이 있음
 >     * Layer의 후반으로 갈수록 Kernel(필터)의 크기가 작아져 DLA의 EPT trade-off 성능이 좋아짐(GPU는 bigger buffer, kernel, parallelism 에 더 효과적
 >     * Energy와 Execution Time에 기반하여 heterogenouse system에 trade-off가 있음을 실험을 통해 증명했고, 이 측정수단으로써 MAEG라는 측정방식을 제시
->   * Citation: 
+>   * Citation:
 > </div>
 > </details>
 
@@ -67,7 +67,7 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 >   * Chuang Hu, Wei Bao, Dan Wang, and Fengming Liu. 2019. Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge. Proceedings - IEEE INFOCOM (2019), 1423ś1431.
 >     * 서버의 레이턴시, 대역폭을 고려한 스케줄링 기법 제시
 >   * Hongshan Li, Chenghao Hu, Jingyan Jiang, Zhi Wang, Yonggang Wen, and Wenwu Zhu. 2019. JALAD: Joint Accuracy-And Latency Aware Deep Structure Decoupling for Edge-Cloud Execution. In International Conference on Parallel and Distributed Systems (ICPADS). 671ś678.
->     * 오프로딩시 고려해야 할 레이턴시-정확도 trade off에 대해 언급>   
+>     * 오프로딩시 고려해야 할 레이턴시-정확도 trade off에 대해 언급>
 > </div>
 > </details>
 
@@ -76,7 +76,7 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 > <summary> > 내용 </summary>
 > <div markdown='1'>
 >
-> * ACM Transactions on Embedded Computing SystemsVolume 18Issue 2March 2019 
+> * ACM Transactions on Embedded Computing SystemsVolume 18Issue 2March 2019
 > * GUANWEN ZHONG, AKSHAT DUBEY, CHENG TAN, and TULIKA MITRA
 > * National University of Singapore
 > * Content:
