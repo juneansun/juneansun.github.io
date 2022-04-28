@@ -95,6 +95,7 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 > <details>
 > <summary> > 내용 </summary>
 > <div markdown='1'>
+
 >  * IEEE Transactions on Neural Networks and Learning Systems ( Early Access ) 21 April 2021 
 >  * Sparsh Mittal , Senior Member, IEEE, Poonam Rajput, and Sreenivas Subramoney, Senior Member, IEEE
 >  * Contents:
