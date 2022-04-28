@@ -102,7 +102,7 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 >    * DL Accelerator가 많이 대두 되고 있지만 항상 optimal한 것은 아니며 오히려 standardization, availablitiy, portability등을 고려 했을때 여전히 가장 widely used되는 processor라고 소개 -> Embedded(on-device관련된 부분만 선별적으로 확인)
 >    * Mobile에서 CPU가 GPU보다 비슷하거나 더 좋은 performance를 내는 경우가 있음
 >    * large data transfer and network setup overhead(FPGA의 느린 clock speed / GPU, TPU는 대역폭이 넓지만 latency때문에 RT inference에 적합하지 않음)
->    * ** low batch size일 경우 CPU만이 least, comparable latency를 제공 **
+>    * **low batch size일 경우 CPU만이 least, comparable latency를 제공 **
 >    * mid-range model로 갈 수록 GPU/CPU의 성능차가 적음
 >    * CPU/GPU간의 낮은 memory bandwidth가 장애물이 됨
 >    * CPU기반의 DL 최적화와 DL위한 CPU 최적화를 다룸
