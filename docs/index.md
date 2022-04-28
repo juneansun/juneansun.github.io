@@ -92,20 +92,23 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 > </details>
 
 > ### A Survey of Deep Learning on CPUs: Opportunities and Co-Optimizations
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
 >  * IEEE Transactions on Neural Networks and Learning Systems ( Early Access ) 21 April 2021 
 >  * Sparsh Mittal , Senior Member, IEEE, Poonam Rajput, and Sreenivas Subramoney, Senior Member, IEEE
 >  * Contents:
 >    * DL Accelerator가 많이 대두 되고 있지만 항상 optimal한 것은 아니며 오히려 standardization, availablitiy, portability등을 고려 했을때 여전히 가장 widely used되는 processor라고 소개 -> Embedded(on-device관련된 부분만 선별적으로 확인)
 >    * Mobile에서 CPU가 GPU보다 비슷하거나 더 좋은 performance를 내는 경우가 있음
->      * 배터리 소모같은 것들을 고려했을때, 항상 GPU가 좋은 것은 아님
->      * 아직 많은 Framework가 GPU나 DSP를 완전히 지원하지 못함, 지원받지 못하는 부분들은 CPU에서 실행시켜야 하는데 이것이 오히려 CPU-GPU간의 data-transfer overhead가 됨
->      * Accelerator의 한계:
->        * long design cycles and massive investment
->        * large data transfer and network setup overhead(FPGA의 느린 clock speed / GPU, TPU는 대역폭이 넓지만 latency때문에 RT inference에 적합하지 않음)
->        * ** low batch size일 경우 CPU만이 least, comparable latency를 제공 **
+>    * large data transfer and network setup overhead(FPGA의 느린 clock speed / GPU, TPU는 대역폭이 넓지만 latency때문에 RT inference에 적합하지 않음)
+>    * ** low batch size일 경우 CPU만이 least, comparable latency를 제공 **
+>    * mid-range model로 갈 수록 GPU/CPU의 성능차가 적음
+>    * CPU/GPU간의 낮은 memory bandwidth가 장애물이 됨
+>    * CPU기반의 DL 최적화와 DL위한 CPU 최적화를 다룸
 >  * Related work:
 >    * A survey of CPU-GPU heterogeneous computing techniques,” ACM Comput. Surv., vol. 47, no. 4, pp. 69:1–69:35, 2015.
-
+> </div>
+> </details>
 
 > ### Squeezing Deep Learning into Mobile and Embedded Devices
 
