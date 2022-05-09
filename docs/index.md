@@ -111,7 +111,13 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 > </div>
 > </details>
 
-> ### Squeezing Deep Learning into Mobile and Embedded Devices
-
+> ### Neural Network Inference on Mobile SoCs
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Published in: IEEE Design & Test ( Volume: 37, Issue: 5, Oct. 2020)
+  
 > ### DeepRT: A Predictable Deep Learning Inference Framework for IoT Devices
 
+> ### Squeezing Deep Learning into Mobile and Embedded Devices
