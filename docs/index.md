@@ -34,6 +34,14 @@
 > </div>
 > </details>
 
+> ### Efficient Execution of Deep Neural Networks on Mobile Devices with NPU
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+> * Published in: ACM IPSN '21
+> </div>
+> </details>
 
 ## 2022/04월 찾은 논문
 ### 5주차
