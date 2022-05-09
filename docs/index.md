@@ -117,6 +117,8 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 > <div markdown='1'>
 > 
 >  * Published in: IEEE Design & Test ( Volume: 37, Issue: 5, Oct. 2020)
+>  * Contents:
+>    * Overall, the coexecution energy efficiency is always better than the Big CPU cluster. In Kirin 970 SoC, as the GPU is much more energy-efficient than the CPU clusters, the coexecution provides better energy efficiency than the power-efficient Small CPU cluster.
 > </div>
 > </details>
 
