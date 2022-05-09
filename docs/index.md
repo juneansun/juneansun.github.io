@@ -34,6 +34,7 @@
 > </div>
 > </details>
 
+### 2주차
 > ### Efficient Execution of Deep Neural Networks on Mobile Devices with NPU
 > <details>
 > <summary> > 내용 </summary>
