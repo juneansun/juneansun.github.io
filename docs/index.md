@@ -28,6 +28,7 @@
 >  * Author: Siqi Wang, Gayathri Ananthanarayanan, Yifan Zeng, Neeraj Goel, Anuj Pathania, Tulika Mitra
 >  * Contents:
 >    * 딥러닝 layer를 big.LITTLE cluster단위로 실행시키는 프레임워크 제시(Layer의 병렬처리 단위를 각 Cluster로 제한함), 이전 최대 대역폭 대비 39%개선
+>    * Layer Descriptor만으로 Configuration에 따른 성능을 예측
 >    * AlexNet과 같은 Memory Intensive한 모델의 경우, 메모리의 전력소모를 통제할 수 없었기 때문에 Small Cluster의 에너지 효율성이 예상보다 낮게 측정됨
 > </div>
 > </details>
