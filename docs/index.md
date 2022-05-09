@@ -3,6 +3,30 @@
 * related work, 유사아이디어, 참고하고 있는 논문도 따라가 볼것
 * 인용, 또는 후속논문이 있는지 확인
 
+## 2022/05월 찾은 논문
+### 1주차
+> ### Neural Network Inference on Mobile SoCs
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Published in: IEEE Design & Test ( Volume: 37, Issue: 5, Oct. 2020)
+>  * Contents:
+>    * Overall, the coexecution energy efficiency is always better than the Big CPU cluster. In Kirin 970 SoC, as the GPU is much more energy-efficient than the CPU clusters, the coexecution provides better energy efficiency than the power-efficient Small CPU cluster.
+>    * energy-efficiency improvement is limited for the Small cluster for some networks: Exynos 5422과 Kirin 970을 비교하며 28nm에서 10nm로 공정이 개선되고, Clock Cycle도 높아졌으며, 대역폭 향상도 4.4배와 2.6배 향상되었다고 하고 있다. 하지만 Small Cluster인 A53의 경우, 전력소모량도 2배가량 증가하여 실질적인 효율성은 개선이 크지 않음을 보인다고 함
+> </div>
+> </details>
+
+> ### High-Throughput CNN Inference on Embedded ARM Big.LITTLE Multicore Processors
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Published in: IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS, VOL. 39, NO. 10, OCTOBER 2020
+> </div>
+> </details>
+
+
 ## 2022/04월 찾은 논문
 ### 5주차
 > ### DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices
@@ -108,27 +132,6 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 >    * CPU기반의 DL 최적화와 DL위한 CPU 최적화를 다룸
 >  * Related work:
 >    * A survey of CPU-GPU heterogeneous computing techniques,” ACM Comput. Surv., vol. 47, no. 4, pp. 69:1–69:35, 2015.
-> </div>
-> </details>
-
-> ### Neural Network Inference on Mobile SoCs
-> <details>
-> <summary> > 내용 </summary>
-> <div markdown='1'>
-> 
->  * Published in: IEEE Design & Test ( Volume: 37, Issue: 5, Oct. 2020)
->  * Contents:
->    * Overall, the coexecution energy efficiency is always better than the Big CPU cluster. In Kirin 970 SoC, as the GPU is much more energy-efficient than the CPU clusters, the coexecution provides better energy efficiency than the power-efficient Small CPU cluster.
->    * energy-efficiency improvement is limited for the Small cluster for some networks: Exynos 5422과 Kirin 970을 비교하며 28nm에서 10nm로 공정이 개선되고, Clock Cycle도 높아졌으며, 대역폭 향상도 4.4배와 2.6배 향상되었다고 하고 있다. 하지만 Small Cluster인 A53의 경우, 전력소모량도 2배가량 증가하여 실질적인 효율성은 개선이 크지 않음을 보인다고 함
-> </div>
-> </details>
-
-> ### High-Throughput CNN Inference on Embedded ARM Big.LITTLE Multicore Processors
-> <details>
-> <summary> > 내용 </summary>
-> <div markdown='1'>
-> 
->  * Published in: IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS, VOL. 39, NO. 10, OCTOBER 2020
 > </div>
 > </details>
   
