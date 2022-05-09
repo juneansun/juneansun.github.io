@@ -117,6 +117,17 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 > <div markdown='1'>
 > 
 >  * Published in: IEEE Design & Test ( Volume: 37, Issue: 5, Oct. 2020)
+> </div>
+> </details>
+
+> ### High-Throughput CNN Inference on Embedded ARM Big.LITTLE Multicore Processors
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Published in: IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS, VOL. 39, NO. 10, OCTOBER 2020
+> </div>
+> </details>
   
 > ### DeepRT: A Predictable Deep Learning Inference Framework for IoT Devices
 
