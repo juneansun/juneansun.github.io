@@ -119,6 +119,7 @@ exploit their growing computational power. Under this paradigm, the goal is to m
 >  * Published in: IEEE Design & Test ( Volume: 37, Issue: 5, Oct. 2020)
 >  * Contents:
 >    * Overall, the coexecution energy efficiency is always better than the Big CPU cluster. In Kirin 970 SoC, as the GPU is much more energy-efficient than the CPU clusters, the coexecution provides better energy efficiency than the power-efficient Small CPU cluster.
+>    * energy-efficiency improvement is limited for the Small cluster for some networks: Exynos 5422과 Kirin 970을 비교하며 28nm에서 10nm로 공정이 개선되고, Clock Cycle도 높아졌으며, 대역폭 향상도 4.4배와 2.6배 향상되었다고 하고 있다. 하지만 Small Cluster인 A53의 경우, 전력소모량도 2배가량 증가하여 실질적인 효율성은 개선이 크지 않음을 보인다고 함
 > </div>
 > </details>
 
