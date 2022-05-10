@@ -53,6 +53,20 @@
 > </div>
 > </details>
 
+> ### Survey of Machine Learning Accelerators
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+> * Published in: 2020 IEEE High Performance Extreme Computing Conference (HPEC)
+> * Author: Albert Reuther; Peter Michaleas; Michael Jones; Vijay Gadepally; Siddharth Samsi; Jeremy Kepner
+> * Contents: 
+>   * NPU의 수치정밀도는 딥러닝 연산의 정확도에 영향을 미침, 수치정확도가 높은 부동소수점 연산으로는 주로 학습을 시키고, 정수연산으로는 추론을 시켰는데 이때 제한적이고 낮은 수치정밀도를 가지는 int4, int2(논문작성 당시 int8까지 나왔던듯)연산으로 추론을 수행함
+>   * Fig.2를 봐도 Embedded라인에서는 대부분 int연산을 수행, fp32와 같은 부동소수점 연산을 지원하는 프로세서는 보이지 않음
+> </div>
+> </details>
+> https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwidr8qZwdT3AhXCCd4KHT7QCtkQFnoECAYQAQ&url=https%3A%2F%2Fwww.itfind.or.kr%2Fpublication%2Fregular%2Fweeklytrend%2Fweekly%2Fview.do%3FboardParam1%3D8181%26boardParam2%3D8181&usg=AOvVaw0zNY3u08zNWHNlp1bUW_KG
+
 ## 2022/04월 찾은 논문
 ### 5주차
 > ### DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices
