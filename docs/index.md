@@ -40,13 +40,16 @@
 > <summary> > 내용 </summary>
 > <div markdown='1'>
 > 
-> * Published in: ACM IPSN '21
+> * Published in: ACM IPSN '21(Proceedings of the 20th International Conference on Information Processing in Sensor Networks)
 > * Author: Tianxiang Tan, Guoong Cao, The Pennsylvania State University
 > * Contents:
 >   * Compared to CPU, NPU can run DNN models much faster, but with lower accuracy
 >   * The challenge is to determine which part of the DNN model should be run on CPU and which part to be run on NPU.
 >   * goal: Max-accuracy & Min-Time
->   * we propose heuristic based algorithms which are simple but only search a small number of layer combinations
+>   * we propose heuristic & a Machine Learning based Model Partition(MLMP)
+>   * The most significant limitation of NPU is the precision of the floating-point numbers. NPU uses 16 bits or 8 bits to represent the floating-point numbers instead of 32 bits in CPU. As a result, it runs DNN models much faster but less accurate compared to CPU, and it is a challenge to improve the accuracy of running DNN models on NPU. 
+>   * Fig 1.을 보면 VocNet과 YOLO실행시,NPU의 정확도가 CPU보다 많이 떨어짐을 알 수 있음
+>   * NPU의 정확도 손실은 fp16 연산만을 지원하는 특성 때문에 연산시 over/underflow이 발생하는것이 원인이라고 하고 있음
 > </div>
 > </details>
 
