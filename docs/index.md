@@ -62,7 +62,7 @@
 > * Author: Albert Reuther; Peter Michaleas; Michael Jones; Vijay Gadepally; Siddharth Samsi; Jeremy Kepner
 > * Contents: 
 >   * NPU의 수치정밀도는 딥러닝 연산의 정확도에 영향을 미침, 수치정확도가 높은 부동소수점 연산으로는 주로 학습을 시키고, 정수연산으로는 추론을 시켰는데 이때 제한적이고 낮은 수치정밀도를 가지는 int4, int2(논문작성 당시 int8까지 나왔던듯)연산으로 추론을 수행함
->   * Fig.2를 봐도 Embedded라인에서는 대부분 int연산을 수행, fp32와 같은 부동소수점 연산을 지원하는 프로세서는 보이지 않음
+>   * Fig.2를 봐도 Embedded용 프로세서에서는 대부분 int 연산을 수행, 부동소수점 연산을 지원하는 프로세서는 보이지 않음
 > </div>
 > </details>
 >
