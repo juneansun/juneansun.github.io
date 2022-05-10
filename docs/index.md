@@ -65,7 +65,7 @@
 >   * Fig.2를 봐도 Embedded라인에서는 대부분 int연산을 수행, fp32와 같은 부동소수점 연산을 지원하는 프로세서는 보이지 않음
 > </div>
 > </details>
-> https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwidr8qZwdT3AhXCCd4KHT7QCtkQFnoECAYQAQ&url=https%3A%2F%2Fwww.itfind.or.kr%2Fpublication%2Fregular%2Fweeklytrend%2Fweekly%2Fview.do%3FboardParam1%3D8181%26boardParam2%3D8181&usg=AOvVaw0zNY3u08zNWHNlp1bUW_KG
+>
 
 ## 2022/04월 찾은 논문
 ### 5주차
