@@ -41,6 +41,12 @@
 > <div markdown='1'>
 > 
 > * Published in: ACM IPSN '21
+> * Author: Tianxiang Tan, Guoong Cao, The Pennsylvania State University
+> * Contents:
+>   * Compared to CPU, NPU can run DNN models much faster, but with lower accuracy
+>   * The challenge is to determine which part of the DNN model should be run on CPU and which part to be run on NPU.
+>   * goal: Max-accuracy & Min-Time
+>   * we propose heuristic based algorithms which are simple but only search a small number of layer combinations
 > </div>
 > </details>
 
