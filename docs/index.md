@@ -67,6 +67,8 @@
 > </details>
 >
 
+> ### SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping
+
 ## 2022/04월 찾은 논문
 ### 5주차
 > ### DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices
