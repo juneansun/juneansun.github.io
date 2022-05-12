@@ -68,6 +68,17 @@
 >
 
 > ### SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+>
+>  * ASPLOS '20: Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming
+>  * Authors: Chien-Chin Huang, Gu Jin, Jinyang Li
+>  * DNN에서 GPU 메모리의 한계로 GPU-CPU간의 Memory Swap이 자주 발생, Dataflow그래프를 기반으로 operation을 예측할 수 있으니 메모리가 모자라는 상황이 나오기 전에 optimal하게 미리 GPU to CPU로 swap을 수행
+>  * swap planing은 가능한 operation schedule, Memory Allocation 방식을 기준으로 GA수행, 최적의 swap plan을 DNN framework로 전달해서 최적의 swap이 발생하도록 함
+> </div>
+> </details>
+>
 
 ## 2022/04월 찾은 논문
 ### 5주차
