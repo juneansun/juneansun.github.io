@@ -12,9 +12,10 @@
 > 
 >  * Youngsok Kim, Joonsung Kim, Dongju Chae, Daehyun Kim, and Jangwoo Kim. 2019. ΜLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization. In Proceedings of the Fourteenth EuroSys Conference 2019 (EuroSys '19). Association for Computing Machinery, New York, NY, USA, Article 45, 1–15. https://doi.org/10.1145/3302424.3303950
 >  * Contents:
->    * Mobile 환경에서 이기종 프로세서별 딥러닝 성능의 정량적 측정과 파워/성능간의 관계에 대한 이해를 제시
->    * energy-efficiency improvement is limited for the Small cluster for some networks: Exynos 5422과 Kirin 970을 비교하며 28nm에서 10nm로 공정이 개선되고, Clock Cycle도 높아졌으며, 대역폭 향상도 4.4배와 2.6배 향상되었다고 하고 있다. **하지만 Small Cluster인 A53의 경우, 전력소모량도 2배가량 증가하여 실질적인 효율성은 개선이 크지 않음을 보인다고 함**
->    * **Kirin 970의 경우 GPU의 전력/성능비가 특히 뛰어나기 때문에 power-efficient한 Small Cluster보다 너 나은 에너지 효율성을 보였다고 함**
+>    * CPU, GPU를 둘다 사용하는 NN 모델 제시
+>    * 1. 이미지 channel 단위로 분리, 각 채널별로 CPU, GPU로 작업을 분배함
+>    * 2. 각 processor에서 잘 수행할 수 있는 모델로 quantizaiton 수행(CPU: int8, GPU: fp16)
+>    * 3. inception 모듈을 두고 여러 size로 필터링해서 각기 다른 사이크로 conv된 결과물들을 concat하는 방식의 경우 앞선 1, 2와 시너지효과를 발휘 할 수 있음
 > </div>
 > </details>
 
