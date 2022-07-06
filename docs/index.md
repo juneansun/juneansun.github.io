@@ -16,6 +16,16 @@
 >    * 1. 이미지 channel 단위로 분리, 각 채널별로 CPU, GPU로 작업을 분배함
 >    * 2. 각 processor에서 잘 수행할 수 있는 모델로 quantizaiton 수행(CPU: int8, GPU: fp16)
 >    * 3. inception 모듈을 두고 여러 size로 필터링해서 각기 다른 사이크로 conv된 결과물들을 concat하는 방식의 경우 앞선 1, 2와 시너지효과를 발휘 할 수 있음
+>  * References:
+>    * CNNdroid - GPU
+>    * DeepSense - GPU
+>    * DeepMon - GPU + inter-frame similarity
+>    * RSTensorFlow - RenderScript
+>    * DeepEar - DSP
+>    * MCDNN - device/cloud
+>    * **LEO - multiple run CPU/GPU/DSP**
+>    * DeepX - splits NN layers + distribute to hetero
+>    * Device Placement Optimization with Rein-forcement Learning, Hierarchical Planning for Device Placement - optimization layer- processor placement
 > </div>
 > </details>
 
