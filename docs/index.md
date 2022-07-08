@@ -29,6 +29,17 @@
 > </div>
 > </details>
 
+> ### LEO: scheduling sensor inference algorithms across heterogeneous mobile processors and network resources
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Petko Georgiev, Nicholas D. Lane, Kiran K. Rachuri, and Cecilia Mascolo. 2016. LEO: scheduling sensor inference algorithms across heterogeneous mobile processors and network resources. In Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking (MobiCom '16). Association for Computing Machinery, New York, NY, USA, 320–333. https://doi.org/10.1145/2973750.2973777
+>  * Contents:
+>    * 
+> </div>
+> </details>
+
 ## 2022/05월 찾은 논문
 ### 1주차
 > ### Neural Network Inference on Mobile SoCs
