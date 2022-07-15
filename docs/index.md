@@ -42,9 +42,9 @@
 >      * 실험환경에서 DSP의 성능이 CPU보다 떨어지지만 에너지 소모량이 훨씬 적음(1/10수
 >      * JAVA레벨의 라이브러리 제공, 모든 센셍 앱들은 반드시 이걸 사용해서 Sensor 장치에 접근한다고 가정 - prototype앱까지 직접 제작함
 >      * Solver는 DSP에 서비스로 돌아감(DSP 쓰레드중 하나 점유, DSP DDK로 구현)
->      * GA사용
+>      * 유전 알고리즘 사용(memetic algorithms: 미미틱 알고리즘)
 >    * 비교군: LEO vs Delay Tolearant LEO vs DSP + Cloud vs CPU + Cloud vs 작업량이 많은 task부터 DSP우선분배(greedy) vs MAUI-DSP
->    * Delay Tolerant 방식일 때 에너지 소모가 가장 적었음
+>      * 실혐결과: Delay Tolerant 방식일 때 에너지 소모가 가장 적었음
 > </div>
 > </details>
 
