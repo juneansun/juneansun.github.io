@@ -35,6 +35,7 @@
 > <div markdown='1'>
 > 
 >  * Petko Georgiev, Nicholas D. Lane, Kiran K. Rachuri, and Cecilia Mascolo. 2016. LEO: scheduling sensor inference algorithms across heterogeneous mobile processors and network resources. In Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking (MobiCom '16). Association for Computing Machinery, New York, NY, USA, 320–333. https://doi.org/10.1145/2973750.2973777
+>  * µLayer에서 인용한 논문
 >  * Contents:
 >    * Sensor앱들의 CPU/GPU/DSP/Cloud로 작업을 나눠 수행하게 하는 scheduling 기능 제공
 >    * **Energy 소모를 줄이는데 중점**(성능이나 정확도는 최대한 유지하면서)
@@ -48,17 +49,28 @@
 > </div>
 > </details>
 
-
-
 > ### CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android
 > <details>
 > <summary> > 내용 </summary>
 > <div markdown='1'>
 > 
 >  * Seyyed Salar Latifi Oskouei, Hossein Golestani, Matin Hashemi, and Soheil Ghiasi. 2016. CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android. In Proceedings of the 24th ACM international conference on Multimedia (MM '16). Association for Computing Machinery, New York, NY, USA, 1201–1205. https://doi.org/10.1145/2964284.2973801
+>  * µLayer에서 인용한 논문
 >  * Contents:
 > </div>
 > </details>
+
+> ### Adaptive Optimization for OpenCL Programs on Embedded Heterogeneous Systems
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Ben Taylor, Vicent Sanz Marco, and Zheng Wang. 2017. Adaptive optimization for OpenCL programs on embedded heterogeneous systems. In Proceedings of the 18th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES 2017). Association for Computing Machinery, New York, NY, USA, 11–20. https://doi.org/10.1145/3078633.3081040
+>  * CNNDroid를 인용한 논문
+>  * Contents:
+> </div>
+> </details>
+
 
 
 ## 2022/05월 찾은 논문
