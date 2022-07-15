@@ -49,6 +49,18 @@
 > </div>
 > </details>
 
+> ### MAUI:  Making  smart-phones last longer with code offload
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Eduardo Cuervo, Aruna Balasubramanian, Dae-ki Cho, Alec Wolman, Stefan Saroiu, Ranveer Chandra, and Paramvir Bahl. 2010. MAUI: making smartphones last longer with code offload. In Proceedings of the 8th international conference on Mobile systems, applications, and services (MobiSys '10). Association for Computing Machinery, New York, NY, USA, 49–62. https://doi.org/10.1145/1814433.1814441
+>  * LEO에서 인용한 논문
+>  * Contents:
+> </div>
+> </details>
+> 
+
 > ### CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android
 > <details>
 > <summary> > 내용 </summary>
