@@ -48,6 +48,19 @@
 > </div>
 > </details>
 
+
+
+> ### CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Seyyed Salar Latifi Oskouei, Hossein Golestani, Matin Hashemi, and Soheil Ghiasi. 2016. CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android. In Proceedings of the 24th ACM international conference on Multimedia (MM '16). Association for Computing Machinery, New York, NY, USA, 1201–1205. https://doi.org/10.1145/2964284.2973801
+>  * Contents:
+> </div>
+> </details>
+
+
 ## 2022/05월 찾은 논문
 ### 1주차
 > ### Neural Network Inference on Mobile SoCs
