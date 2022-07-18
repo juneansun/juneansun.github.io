@@ -57,6 +57,8 @@
 >  * Eduardo Cuervo, Aruna Balasubramanian, Dae-ki Cho, Alec Wolman, Stefan Saroiu, Ranveer Chandra, and Paramvir Bahl. 2010. MAUI: making smartphones last longer with code offload. In Proceedings of the 8th international conference on Mobile systems, applications, and services (MobiSys '10). Association for Computing Machinery, New York, NY, USA, 49–62. https://doi.org/10.1145/1814433.1814441
 >  * LEO에서 인용한 논문
 >  * Contents:
+>    * 에너지 소모측면에서 효율성을 최대화 시키는 offloading 방식 제시
+>    * .Net 으로 앱 제작, 중간코드 형태이기 때문에 platform(ARM/x86)이 달라도 실행이 가능
 > </div>
 > </details>
 > 
@@ -69,6 +71,9 @@
 >  * Seyyed Salar Latifi Oskouei, Hossein Golestani, Matin Hashemi, and Soheil Ghiasi. 2016. CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android. In Proceedings of the 24th ACM international conference on Multimedia (MM '16). Association for Computing Machinery, New York, NY, USA, 1201–1205. https://doi.org/10.1145/2964284.2973801
 >  * µLayer에서 인용한 논문
 >  * Contents:
+>    * CNNDroid는 GPU 사용이 가능한 CNN library(Android 병철처리용 RenderScript 프레임워크로 구현)
+>    * 이미 만들어진 모델들에 대해서 CNNDroid에서 인식할 수 있는 모델로 변환
+>    * 
 > </div>
 > </details>
 
