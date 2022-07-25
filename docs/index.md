@@ -29,6 +29,7 @@
 > </div>
 > </details>
 
+### 2주차
 > ### LEO: scheduling sensor inference algorithms across heterogeneous mobile processors and network resources
 > <details>
 > <summary> > 내용 </summary>
@@ -84,6 +85,18 @@
 > 
 >  * Ben Taylor, Vicent Sanz Marco, and Zheng Wang. 2017. Adaptive optimization for OpenCL programs on embedded heterogeneous systems. In Proceedings of the 18th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems (LCTES 2017). Association for Computing Machinery, New York, NY, USA, 11–20. https://doi.org/10.1145/3078633.3081040
 >  * CNNDroid를 인용한 논문
+>  * Contents:
+> </div>
+> </details>
+
+### 3주차
+> ### Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * PColin Shea and Tinoosh Mohsenin. 2019. Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs. J. Emerg. Technol. Comput. Syst. 15, 4, Article 36 (October 2019), 31 pages. https://doi.org/10.1145/3358699
+>  * 연구 방향이 schedulig으로 정해졌으므로 'scheudule' 키워드를 추가하여 다시 검색: heterogeneous scheduling of deep learing
 >  * Contents:
 > </div>
 > </details>
