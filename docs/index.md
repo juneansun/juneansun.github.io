@@ -98,6 +98,7 @@
 >  * PColin Shea and Tinoosh Mohsenin. 2019. Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs. J. Emerg. Technol. Comput. Syst. 15, 4, Article 36 (October 2019), 31 pages. https://doi.org/10.1145/3358699
 >  * 연구 방향이 schedulig으로 정해졌으므로 'scheudule' 키워드를 추가하여 다시 검색: heterogeneous scheduling of deep learing
 >  * Contents:
+>    * 이기종 시스템에서의 성능측정에 관한 메트릭 모델을 제시(we describe and implement a domain-specific metric model for optimizing task deployment on differing platforms, hardware and software)
 > </div>
 > </details>
 
