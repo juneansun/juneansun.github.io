@@ -103,6 +103,16 @@
 > </details>
 
 ### 4주차
+> ### Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * E. Seo, J. Jeong, S. Park and J. Lee, "Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors," in IEEE Transactions on Parallel and Distributed Systems, vol. 19, no. 11, pp. 1540-1552, Nov. 2008, doi: 10.1109/TPDS.2008.104.
+>  * 
+> </div>
+> </details>
+
 > ### Real-time dynamic voltage scaling for low-power embedded operating systems
 > <details>
 > <summary> > 내용 </summary>
