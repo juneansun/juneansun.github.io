@@ -4,28 +4,37 @@
 * 인용, 또는 후속논문이 있는지 확인
 
 ## 2022/07월 찾은 논문
-### 1주차
-> ### µLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization
+### 4주차
+> ### Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors
 > <details>
 > <summary> > 내용 </summary>
 > <div markdown='1'>
 > 
->  * Youngsok Kim, Joonsung Kim, Dongju Chae, Daehyun Kim, and Jangwoo Kim. 2019. ΜLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization. In Proceedings of the Fourteenth EuroSys Conference 2019 (EuroSys '19). Association for Computing Machinery, New York, NY, USA, Article 45, 1–15. https://doi.org/10.1145/3302424.3303950
+>  * E. Seo, J. Jeong, S. Park and J. Lee, "Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors," in IEEE Transactions on Parallel and Distributed Systems, vol. 19, no. 11, pp. 1540-1552, Nov. 2008, doi: 10.1109/TPDS.2008.104.
+>  * 
+> </div>
+> </details>
+
+> ### Real-time dynamic voltage scaling for low-power embedded operating systems
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Padmanabhan Pillai and Kang G. Shin. 2001. Real-time dynamic voltage scaling for low-power embedded operating systems. In Proceedings of the eighteenth ACM symposium on Operating systems principles (SOSP '01). Association for Computing Machinery, New York, NY, USA, 89–102. https://doi.org/10.1145/502034.502044
+>  * 
+> </div>
+> </details>
+
+### 3주차
+> ### Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * PColin Shea and Tinoosh Mohsenin. 2019. Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs. J. Emerg. Technol. Comput. Syst. 15, 4, Article 36 (October 2019), 31 pages. https://doi.org/10.1145/3358699
+>  * 연구 방향이 schedulig으로 정해졌으므로 'scheudule' 키워드를 추가하여 다시 검색: heterogeneous scheduling of deep learing
 >  * Contents:
->    * CPU, GPU를 둘다 사용하는 NN 모델 제시
->    * 1. 이미지 channel 단위로 분리, 각 채널별로 CPU, GPU로 작업을 분배함
->    * 2. 각 processor에서 잘 수행할 수 있는 모델로 quantizaiton 수행(CPU: int8, GPU: fp16)
->    * 3. inception 모듈을 두고 여러 size로 필터링해서 각기 다른 사이크로 conv된 결과물들을 concat하는 방식의 경우 앞선 1, 2와 시너지효과를 발휘 할 수 있음
->  * References:
->    * CNNdroid - GPU
->    * DeepSense - GPU
->    * DeepMon - GPU + inter-frame similarity
->    * RSTensorFlow - RenderScript
->    * DeepEar - DSP
->    * MCDNN - device/cloud
->    * **LEO - multiple run CPU/GPU/DSP**
->    * DeepX - splits NN layers + distribute to hetero
->    * Device Placement Optimization with Rein-forcement Learning, Hierarchical Planning for Device Placement - optimization layer- processor placement
+>    * 이기종 시스템에서의 성능측정에 관한 메트릭 모델을 제시(we describe and implement a domain-specific metric model for optimizing task deployment on differing platforms, hardware and software)
 > </div>
 > </details>
 
@@ -89,39 +98,31 @@
 > </div>
 > </details>
 
-### 3주차
-> ### Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs
+### 1주차
+> ### µLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization
 > <details>
 > <summary> > 내용 </summary>
 > <div markdown='1'>
 > 
->  * PColin Shea and Tinoosh Mohsenin. 2019. Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs. J. Emerg. Technol. Comput. Syst. 15, 4, Article 36 (October 2019), 31 pages. https://doi.org/10.1145/3358699
->  * 연구 방향이 schedulig으로 정해졌으므로 'scheudule' 키워드를 추가하여 다시 검색: heterogeneous scheduling of deep learing
+>  * Youngsok Kim, Joonsung Kim, Dongju Chae, Daehyun Kim, and Jangwoo Kim. 2019. ΜLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization. In Proceedings of the Fourteenth EuroSys Conference 2019 (EuroSys '19). Association for Computing Machinery, New York, NY, USA, Article 45, 1–15. https://doi.org/10.1145/3302424.3303950
 >  * Contents:
->    * 이기종 시스템에서의 성능측정에 관한 메트릭 모델을 제시(we describe and implement a domain-specific metric model for optimizing task deployment on differing platforms, hardware and software)
+>    * CPU, GPU를 둘다 사용하는 NN 모델 제시
+>    * 1. 이미지 channel 단위로 분리, 각 채널별로 CPU, GPU로 작업을 분배함
+>    * 2. 각 processor에서 잘 수행할 수 있는 모델로 quantizaiton 수행(CPU: int8, GPU: fp16)
+>    * 3. inception 모듈을 두고 여러 size로 필터링해서 각기 다른 사이크로 conv된 결과물들을 concat하는 방식의 경우 앞선 1, 2와 시너지효과를 발휘 할 수 있음
+>  * References:
+>    * CNNdroid - GPU
+>    * DeepSense - GPU
+>    * DeepMon - GPU + inter-frame similarity
+>    * RSTensorFlow - RenderScript
+>    * DeepEar - DSP
+>    * MCDNN - device/cloud
+>    * **LEO - multiple run CPU/GPU/DSP**
+>    * DeepX - splits NN layers + distribute to hetero
+>    * Device Placement Optimization with Rein-forcement Learning, Hierarchical Planning for Device Placement - optimization layer- processor placement
 > </div>
 > </details>
 
-### 4주차
-> ### Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors
-> <details>
-> <summary> > 내용 </summary>
-> <div markdown='1'>
-> 
->  * E. Seo, J. Jeong, S. Park and J. Lee, "Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors," in IEEE Transactions on Parallel and Distributed Systems, vol. 19, no. 11, pp. 1540-1552, Nov. 2008, doi: 10.1109/TPDS.2008.104.
->  * 
-> </div>
-> </details>
-
-> ### Real-time dynamic voltage scaling for low-power embedded operating systems
-> <details>
-> <summary> > 내용 </summary>
-> <div markdown='1'>
-> 
->  * Padmanabhan Pillai and Kang G. Shin. 2001. Real-time dynamic voltage scaling for low-power embedded operating systems. In Proceedings of the eighteenth ACM symposium on Operating systems principles (SOSP '01). Association for Computing Machinery, New York, NY, USA, 89–102. https://doi.org/10.1145/502034.502044
->  * 
-> </div>
-> </details>
 
 
 
