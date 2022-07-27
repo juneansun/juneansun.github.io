@@ -102,6 +102,17 @@
 > </div>
 > </details>
 
+### 4주차
+> ### Real-time dynamic voltage scaling for low-power embedded operating systems
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Padmanabhan Pillai and Kang G. Shin. 2001. Real-time dynamic voltage scaling for low-power embedded operating systems. In Proceedings of the eighteenth ACM symposium on Operating systems principles (SOSP '01). Association for Computing Machinery, New York, NY, USA, 89–102. https://doi.org/10.1145/502034.502044
+>  * 
+> </div>
+> </details>
+
 
 
 ## 2022/05월 찾은 논문
