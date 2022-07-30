@@ -25,6 +25,17 @@
 > </div>
 > </details>
 
+> ### LaLaRAND: Flexible Layer-by-Layer CPU/GPU Scheduling for Real-Time DNN Tasks
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * W. Kang, K. Lee, J. Lee, I. Shin and H. S. Chwa, "LaLaRAND: Flexible Layer-by-Layer CPU/GPU Scheduling for Real-Time DNN Tasks," 2021 IEEE Real-Time Systems Symposium (RTSS), 2021, pp. 329-341, doi: 10.1109/RTSS52674.2021.00038.
+>  * 
+> </div>
+> </details>
+> 
+
 ### 3주차
 > ### Heterogeneous Scheduling of Deep Neural Networks for Low-power Real-time Designs
 > <details>
