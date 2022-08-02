@@ -118,7 +118,7 @@
 >  * Youngsok Kim, Joonsung Kim, Dongju Chae, Daehyun Kim, and Jangwoo Kim. 2019. ΜLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization. In Proceedings of the Fourteenth EuroSys Conference 2019 (EuroSys '19). Association for Computing Machinery, New York, NY, USA, Article 45, 1–15. https://doi.org/10.1145/3302424.3303950
 >  * Contents:
 >    * CPU, GPU를 둘다 사용하는 NN 모델 제시
->    * 1. 이미지 channel 단위로 분리, 각 채널별로 CPU, GPU로 작업을 분배함
+>    * 1. **이미지 channel 단위로 분리**, 각 채널별로 CPU, GPU로 작업을 분배함
 >    * 2. 각 processor에서 잘 수행할 수 있는 모델로 quantizaiton 수행(CPU: int8, GPU: fp16)
 >    * 3. inception 모듈을 두고 여러 size로 필터링해서 각기 다른 사이크로 conv된 결과물들을 concat하는 방식의 경우 앞선 1, 2와 시너지효과를 발휘 할 수 있음
 >  * References:
