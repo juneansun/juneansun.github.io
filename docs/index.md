@@ -3,6 +3,28 @@
 * related work, 유사아이디어, 참고하고 있는 논문도 따라가 볼것
 * 인용, 또는 후속논문이 있는지 확인
 
+Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference," 2019 IEEE Real-Time Systems Symposium (RTSS), 2019, pp. 392-405, doi: 10.1109/RTSS46320.2019.00042.
+
+## 2022/08월 찾은 논문
+### 1주차
+> ### Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference," 2019 IEEE Real-Time Systems Symposium (RTSS), 2019, pp. 392-405, doi: 10.1109/RTSS46320.2019.00042.
+>  * Caffe를 포함한 기존의 Framework는 priority에 기반한 스케줄링을 지원하지 않음
+>  * Stage, Node, Worker 정의:
+>    * Stage: 연속된 Layer들을 묶은 Layer들의 부분집합
+>    * Node: DNN을 처리가능한 연산장치의 묶음(GPU는 혼자서 작업 못하므로 반드시 하나의 CPU노드를 함께 묶음)
+>    * Worker: DNN Task의 스케줄링을 담당하는 쓰레드
+>  * 각 Node별로 RT와 BE(Best Effort) worker 쓰레드가 존재
+>  * 각 모델들에 대해서 Priority-Aware 한 상황
+>  * Dynamic Programming을 이용해서 RT의 deadline을 충족하고, BE에 대해선 Throughput을 높이는 pipeline을 design
+> </div>
+> </details>
+
+
 ## 2022/07월 찾은 논문
 ### 4주차
 > ### Energy Efficient Scheduling of Real-Time Tasks on Multicore Processors
