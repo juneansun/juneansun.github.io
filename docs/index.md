@@ -13,6 +13,7 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 > <div markdown='1'>
 > 
 >  * Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference," 2019 IEEE Real-Time Systems Symposium (RTSS), 2019, pp. 392-405, doi: 10.1109/RTSS46320.2019.00042.
+>  * LaLaRAND(이진규 교수님 연구실)논문에서 Base로 성능비교한 논문
 >  * Caffe를 포함한 기존의 Framework는 priority에 기반한 스케줄링을 지원하지 않음
 >  * Stage, Node, Worker 정의:
 >    * Stage: 연속된 Layer들을 묶은 Layer들의 부분집합
