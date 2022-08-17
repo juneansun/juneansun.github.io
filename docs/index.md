@@ -25,6 +25,17 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 > </div>
 > </details>
 
+### 2주차
+> ### Machine Learning at Facebook: Understanding Inference at the Edge
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * C. -J. Wu et al., "Machine Learning at Facebook: Understanding Inference at the Edge," 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
+>  * 
+> </div>
+> </details>
+> 
 
 ## 2022/07월 찾은 논문
 ### 4주차
