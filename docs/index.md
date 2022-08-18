@@ -46,7 +46,7 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 
 
 ### 1주차
-> ### Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference
+> ### DART, Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference
 > <details>
 > <summary> > 내용 </summary>
 > <div markdown='1'>
