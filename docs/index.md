@@ -6,6 +6,35 @@
 Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference," 2019 IEEE Real-Time Systems Symposium (RTSS), 2019, pp. 392-405, doi: 10.1109/RTSS46320.2019.00042.
 
 ## 2022/08월 찾은 논문
+
+### 2주차
+> ### OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Device
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * S. I. Venieris, I. Panopoulos and I. S. Venieris, "OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Devices," 2021 IEEE International Conference on Smart Computing (SMARTCOMP), 2021, pp. 1-8, doi: 10.1109/SMARTCOMP52413.2021.00021.
+>  * SRUK
+>  * dynamic adaptation이란 용어가 나옴
+>  * referehcing:
+>    * C. -J. Wu et al., "Machine Learning at Facebook: Understanding Inference at the Edge," 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
+>    * MARLER, R. Timothy; ARORA, Jasbir S. Survey of multi-objective optimization methods for engineering. Structural and multidisciplinary optimization, 2004, 26.6: 369-395.
+>  * referenced by:
+>    * VENIERIS, Stylianos I., et al. How to reach real-time AI on consumer devices? Solutions for programmable and custom architectures. In: 2021 IEEE 32nd International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2021. p. 93-100.
+> </div>
+> </details>
+
+> ### Machine Learning at Facebook: Understanding Inference at the Edge
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * C. -J. Wu et al., "Machine Learning at Facebook: Understanding Inference at the Edge," 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
+>  * 2.3 The performance difference between a mobile CPU and GPU/DSP is narrow
+> </div>
+> </details>
+
+
 ### 1주차
 > ### Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference
 > <details>
@@ -24,18 +53,6 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 >  * Dynamic Programming을 이용해서 RT의 deadline을 충족하고, BE에 대해선 Throughput을 높이는 pipeline을 design
 > </div>
 > </details>
-
-### 2주차
-> ### Machine Learning at Facebook: Understanding Inference at the Edge
-> <details>
-> <summary> > 내용 </summary>
-> <div markdown='1'>
-> 
->  * C. -J. Wu et al., "Machine Learning at Facebook: Understanding Inference at the Edge," 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
->  * 2.3 The performance difference between a mobile CPU and GPU/DSP is narrow
-> </div>
-> </details>
-> 
 
 ## 2022/07월 찾은 논문
 ### 4주차
