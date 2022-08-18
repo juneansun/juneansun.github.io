@@ -14,8 +14,10 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 > <div markdown='1'>
 > 
 >  * S. I. Venieris, I. Panopoulos and I. S. Venieris, "OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Devices," 2021 IEEE International Conference on Smart Computing (SMARTCOMP), 2021, pp. 1-8, doi: 10.1109/SMARTCOMP52413.2021.00021.
->  * SRUK
+>  * Samsung Research UK에서 쓴 논문
+>  * Optimization을 위해서 \epsilon-constraint formulation 과 weighted sum method을 사용하였다고 함[Survey of multi-objective optimization methods for engineering]
 >  * referencing:
+>    * Marler, R. Timothy, and Jasbir S. Arora. "Survey of multi-objective optimization methods for engineering." Structural and multidisciplinary optimization 26.6 (2004): 369-395.
 >    * C. -J. Wu et al., **"Machine Learning at Facebook: Understanding Inference at the Edge,"** 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
 >    * MARLER, R. Timothy; ARORA, Jasbir S. **Survey of multi-objective optimization methods for engineering.** Structural and multidisciplinary optimization, 2004, 26.6: 369-395.
 >  * referenced by:
