@@ -31,7 +31,7 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 > <div markdown='1'>
 > 
 >  * VENIERIS, Stylianos I., et al. **How to reach real-time AI on consumer devices? Solutions for programmable and custom architectures.** In: 2021 IEEE 32nd International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2021. p. 93-100.
->  * OODIN저자가 쓴 논문
+>  * OODIN저자가 쓴 논문, Consumer Device의 RT AI에 대한 Survey 성격의 논문
 >  * 내용중 dynamic adaptation 이라는 단어를 쓰는데 이걸로 'dynamic adaptation'을 구글링 하니까 
 >    * C. Hu, W. Bao, D. Wang and F. Liu, **"Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge,"** IEEE INFOCOM 2019 - IEEE Conference on Computer Communications, 2019, pp. 1423-1431, doi: 10.1109/INFOCOM.2019.8737614. 이런 논문이 나왔음
 > </div>
