@@ -8,6 +8,17 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 ## 2022/08월 찾은 논문
 
 ### 2주차
+> ### How to Reach Real-Time AI on Consumer Devices? Solutions for Programmable and Custom Architectures
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * VENIERIS, Stylianos I., et al. **How to reach real-time AI on consumer devices? Solutions for programmable and custom architectures.** In: 2021 IEEE 32nd International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2021. p. 93-100.
+>  * OODIN을 소개하며 dynamic adaptation 이라는 단어를 쓰는데 이걸로 'dynamic adaptation'을 구글링 하니까 
+>    * C. Hu, W. Bao, D. Wang and F. Liu, **"Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge,"** IEEE INFOCOM 2019 - IEEE Conference on Computer Communications, 2019, pp. 1423-1431, doi: 10.1109/INFOCOM.2019.8737614. 이런 논문이 나왔음
+> </div>
+> </details>
+> 
 > ### OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Device
 > <details>
 > <summary> > 내용 </summary>
@@ -15,7 +26,6 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 > 
 >  * S. I. Venieris, I. Panopoulos and I. S. Venieris, "OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Devices," 2021 IEEE International Conference on Smart Computing (SMARTCOMP), 2021, pp. 1-8, doi: 10.1109/SMARTCOMP52413.2021.00021.
 >  * SRUK
->  * dynamic adaptation이란 용어가 나옴
 >  * referencing:
 >    * C. -J. Wu et al., **"Machine Learning at Facebook: Understanding Inference at the Edge,"** 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
 >    * MARLER, R. Timothy; ARORA, Jasbir S. **Survey of multi-objective optimization methods for engineering.** Structural and multidisciplinary optimization, 2004, 26.6: 369-395.
