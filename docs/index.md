@@ -22,6 +22,7 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 >    * VENIERIS, Stylianos I., et al. **How to reach real-time AI on consumer devices? Solutions for programmable and custom architectures.** In: 2021 IEEE 32nd International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2021. p. 93-100.
 > </div>
 > </details>
+
 > ### How to Reach Real-Time AI on Consumer Devices? Solutions for Programmable and Custom Architectures
 > <details>
 > <summary> > 내용 </summary>
@@ -32,7 +33,7 @@ Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN R
 >    * C. Hu, W. Bao, D. Wang and F. Liu, **"Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge,"** IEEE INFOCOM 2019 - IEEE Conference on Computer Communications, 2019, pp. 1423-1431, doi: 10.1109/INFOCOM.2019.8737614. 이런 논문이 나왔음
 > </div>
 > </details>
-> 
+
 > ### Machine Learning at Facebook: Understanding Inference at the Edge
 > <details>
 > <summary> > 내용 </summary>
