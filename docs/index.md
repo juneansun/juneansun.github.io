@@ -1,5 +1,42 @@
 ## 2022/08월 찾은 논문
 
+> ### template
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * item
+> </div>
+> </details>
+> <details>
+> <summary> referenced by: </summary>
+> <div markdown='1'>
+>
+>    * folded
+> </div>
+> </details>
+> </div>
+> </details>
+
+### 4주차
+> ### template
+> <details>
+> <summary> > 내용 </summary>
+> <div markdown='1'>
+> 
+>  * item
+> </div>
+> </details>
+> <details>
+> <summary> referenced by: </summary>
+> <div markdown='1'>
+>
+>    * folded
+> </div>
+> </details>
+> </div>
+> </details>
+
 ### 2주차
 > ### OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Device
 > <details>
