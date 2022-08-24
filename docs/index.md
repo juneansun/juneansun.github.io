@@ -11,6 +11,7 @@
 >  * Optimization을 위해서 Multi-Objective-Optimization 해결법을 도입(Survey of multi-objective optimization methods for engineering 논문), 이중에서 ϵ-constraint formulation 과 weighted sum method을 사용하였다고 함
 >  * transformation을 거친 여러 모델, resource조합에 대해서 accuracy, performance를 측정하고 결과들을 토대로 **lookup table를 구성**
 >  * **Multi-Objective-Optimization** 해결법을 통해 lookup table에서 목적에 가장 부합하는 모델을 선택
+>  * Runtime manager가 돌면서 실시간으로 Device Resource 의 상황을 반영, MOO를 다시 계산하고 selection을 다시 수행
 > <details>
 > <summary> referencing: </summary>
 > <div markdown='1'>
