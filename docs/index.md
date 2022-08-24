@@ -1,8 +1,3 @@
-# 논문 읽기
-* 키페이퍼는 기억할 것
-* related work, 유사아이디어, 참고하고 있는 논문도 따라가 볼것
-* 인용, 또는 후속논문이 있는지 확인
-
 Y. Xiang and H. Kim, "Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference," 2019 IEEE Real-Time Systems Symposium (RTSS), 2019, pp. 392-405, doi: 10.1109/RTSS46320.2019.00042.
 
 ## 2022/08월 찾은 논문
