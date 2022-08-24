@@ -11,12 +11,23 @@
 >  * Optimization을 위해서 ϵ-constraint formulation 과 weighted sum method을 사용하였다고 함(Survey of multi-objective optimization methods for engineering논문)
 >  * transformation을 거친 여러 모델, resource조합에 대해서 accuracy, performance를 측정하고 결과들을 토대로 lookup table를 구성
 >  * Multi-Objective-Optimization 해결법을 통해 lookup table에서 목적에 가장 부합하는 모델을 선택
->  * referencing:
+> <details>
+> <summary> referencing: </summary>
+> <div markdown='1'>
+>
 >    * Marler, R. Timothy, and Jasbir S. Arora. "Survey of multi-objective optimization methods for engineering." Structural and multidisciplinary optimization 26.6 (2004): 369-395.
 >    * C. -J. Wu et al., **"Machine Learning at Facebook: Understanding Inference at the Edge,"** 2019 IEEE International Symposium on High Performance Computer Architecture (HPCA), 2019, pp. 331-344, doi: 10.1109/HPCA.2019.00048.
 >    * MARLER, R. Timothy; ARORA, Jasbir S. **Survey of multi-objective optimization methods for engineering.** Structural and multidisciplinary optimization, 2004, 26.6: 369-395.
->  * referenced by:
+>
+> </div>
+> </details>
+> <details>
+> <summary> referenced by: </summary>
+> <div markdown='1'>
+>
 >    * VENIERIS, Stylianos I., et al. **How to reach real-time AI on consumer devices? Solutions for programmable and custom architectures.** In: 2021 IEEE 32nd International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2021. p. 93-100.
+> </div>
+> </details>
 > </div>
 > </details>
 
