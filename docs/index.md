@@ -6,8 +6,6 @@
 > <div markdown='1'>
 > 
 >  * item
-> </div>
-> </details>
 > <details>
 > <summary> referenced by: </summary>
 > <div markdown='1'>
@@ -15,8 +13,8 @@
 >    * folded
 > </div>
 > </details>
+> 
 > </div>
-> </details>
 
 ### 4주차
 > ### template
@@ -25,8 +23,6 @@
 > <div markdown='1'>
 > 
 >  * item
-> </div>
-> </details>
 > <details>
 > <summary> referenced by: </summary>
 > <div markdown='1'>
@@ -34,6 +30,7 @@
 >    * folded
 > </div>
 > </details>
+>   * folded
 > </div>
 > </details>
 
