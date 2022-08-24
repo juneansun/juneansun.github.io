@@ -75,6 +75,7 @@
 >  * Dynamic Programming을 이용해서 RT의 deadline을 충족하고, BE에 대해선 Throughput을 높이는 pipeline을 design
 >  * referencing:
 >    * Cheolsun Lim, Myungsun Kim, "ODMDEF: On-Device Multi-DNN Execution Framework Utilizing Adaptive Layer-Allocation on General Purpose Cores and Accelerators", IEEE Access, vol.9, pp.85403-85417, 2021.
+  ![220824_1](/docs/assets/220824_1.png)
 > </div>
 > </details>
 
