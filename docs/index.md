@@ -73,6 +73,8 @@
 >  * 각 Node별로 RT와 BE(Best Effort) worker 쓰레드가 존재
 >  * 각 모델들에 대해서 Priority-Aware 한 상황
 >  * Dynamic Programming을 이용해서 RT의 deadline을 충족하고, BE에 대해선 Throughput을 높이는 pipeline을 design
+>  * referencing:
+>    * Cheolsun Lim, Myungsun Kim, "ODMDEF: On-Device Multi-DNN Execution Framework Utilizing Adaptive Layer-Allocation on General Purpose Cores and Accelerators", IEEE Access, vol.9, pp.85403-85417, 2021.
 > </div>
 > </details>
 
