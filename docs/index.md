@@ -8,9 +8,9 @@
 > 
 >  * S. I. Venieris, I. Panopoulos and I. S. Venieris, "OODIn: An Optimised On-Device Inference Framework for Heterogeneous Mobile Devices," 2021 IEEE International Conference on Smart Computing (SMARTCOMP), 2021, pp. 1-8, doi: 10.1109/SMARTCOMP52413.2021.00021.
 >  * Samsung Research UK에서 쓴 논문
->  * Optimization을 위해서 Multi-Objective-Optimization 해결법을 도입(Survey of multi-objective optimization methods for engineering 논문), ϵ-constraint formulation 과 weighted sum method을 사용하였다고 함
->  * transformation을 거친 여러 모델, resource조합에 대해서 accuracy, performance를 측정하고 결과들을 토대로 lookup table를 구성
->  * Multi-Objective-Optimization 해결법을 통해 lookup table에서 목적에 가장 부합하는 모델을 선택
+>  * Optimization을 위해서 Multi-Objective-Optimization 해결법을 도입(Survey of multi-objective optimization methods for engineering 논문), 이중에서 ϵ-constraint formulation 과 weighted sum method을 사용하였다고 함
+>  * transformation을 거친 여러 모델, resource조합에 대해서 accuracy, performance를 측정하고 결과들을 토대로 **lookup table를 구성**
+>  * **Multi-Objective-Optimization** 해결법을 통해 lookup table에서 목적에 가장 부합하는 모델을 선택
 > <details>
 > <summary> referencing: </summary>
 > <div markdown='1'>
