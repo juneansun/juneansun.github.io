@@ -72,7 +72,9 @@
 > <div markdown='1'>
 > 
 >  * VENIERIS, Stylianos I., et al. **How to reach real-time AI on consumer devices? Solutions for programmable and custom architectures.** In: 2021 IEEE 32nd International Conference on Application-specific Systems, Architectures and Processors (ASAP). IEEE, 2021. p. 93-100.
->  * OODIN저자가 쓴 논문, Consumer Device의 RT AI에 대한 Survey 성격의 논문
+>  * OODIN저자가 쓴 논문, Consumer Device의 RT AI에 대한 Survey 성격의 논문>
+>  * ViViene Sze의 MIT강연을 보면 computation 뿐만 아니라 Memory Access로 인한 Overhead와 power소모가 꽤 되는 것으로 보임
+>  * Compute Intensive한 모델들은 depthwise-separate-conv연산이나 HW가속기의 힘을 빌려 개선이 가능하지만 memory intensive한 작업들에 대해서는 별 효과를 발휘하지 못함
 >  * 내용중 dynamic adaptation 이라는 단어를 쓰는데 이걸로 'dynamic adaptation'을 구글링 하니까 
 >    * C. Hu, W. Bao, D. Wang and F. Liu, **"Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge,"** IEEE INFOCOM 2019 - IEEE Conference on Computer Communications, 2019, pp. 1423-1431, doi: 10.1109/INFOCOM.2019.8737614. 이런 논문이 나왔음
 >  * referencing:
